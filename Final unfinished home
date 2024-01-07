@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Website </title>
+        <meta name="description" content="Printers"/>
+		<meta name="keywords" content="HTML,CSS,JS"/>
+		<meta name="author" content="Simran"/>
+		<meta http-equiv="refresh" content="2"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="...">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+        <link rel="stylesheet" href="Please1.css">
+        
+</head>
+    <body>
+        <!-- header section starts -->
+        <header>
+            <div class="title">
+            <h1>PRINTCRAFT</h1>
+        </div>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#Products">Products</a>
+                <a href="#Research">Research</a>
+                <a href="#Blog">Blog</a>
+                <a href="#AboutUs">About us</a>
+            </nav>
+            <div class="search">
+                <p><input type="text" value="Search" placeholder="Search"></p>
+            </div>
+                <div class="icons">
+                    <button onclick="window.location.href='login.html'" class="login-btn">Login</button>
+                </div>
+                <div class="cart-icon">
+                    <a href="#"><i class="fas fa-shopping-cart"></i>
+                    </a>
+                  </div>
+        </header>
+        <!-- header section ends -->
+
+        <!-- home section starts-->
+        <section class="home" id="home">
+                <div class="content">
+                <h1> Crafted<span style="font-style: italic; font-family:Cochin; font-weight: 15px; font-size: 60px;"> for </span>Innovation</h1>
+                <p>Turning Your Thoughts to Life, <BR>One Print at a time. </p>
+                <a href="products.html" class="button">Shop Now</a>
+            </div>
+        </section>
+    </body>
+</body>
+        <!-- home section ends-->
+        
+        <div id="products" class="products1">
+            <h5> Products </h5>
+            <h2> Best Sellers  </h2>
+            <div class="containers">
+                <div class="box" onclick="window.location.href= '#'">
+                    <div class="image">
+                        <img src="hpp.jpg" style="height: 150px; width: 185px;" alt="HP">
+                        <div class="overlay">
+                            <h4>HP OfficeJet Pro 8034e Wireless Color All-in-One Printer</h4>
+                                <p>Brand: HP
+                                <br>Connectivity Technology: USB
+                                <br>Printing Technology: Inkjet
+                                <br>Special Feature: Auto-Duplex, Display Screen
+                                <br>Color: White
+                                <br>Max Printspeed Monochrome: 20
+                                <br>Item Weight: 18.04 Pounds
+                            </p>
+                    </div>
+                    <div class="detail">
+                        <h3>HP OfficeJet 8015e Wireless Printer</h3>
+                        <div class="price">Rs. 105,000</div>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="icon">
+                    <a href="products.html" class="add">Add to Cart</a>
+                    </div>
+            </div>
+            </div>
+                <div class="box" onclick="window.location.href= '#'">
+                    <div class="image">
+                        <img src="pinkprinter.jpg" style="height: 150px; width: 185px;" alt="pinkprinter">
+                        <div class="overlay">
+                            <h4>HP OfficeJet Pro 8034e Wireless Color All-in-One Printer</h4>
+                                <p> Brand: Canon
+                                    <br>Connectivity Technology: Wi-Fi, USB
+                                    <br>Printing Technology: Inkjet
+                                    <br> Model Name: Canon PIXMA TS5320
+                                    <br> Printer Output: Color
+                                    <br>Maximum Print Speed: 6.8 ppm
+                                   <br> Item Weight: 7.8 kilo
+                                 </p>
+                        </div>
+                    <div class="detail">
+                        <h3> PIXMA TS5320 Wireless Printer </h3>
+                        <div class="price">Rs, 40,000</div>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="icon">
+                    <a href="products.html" class="add">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+                <div class="box" onclick="window.location.href= '#'">
+                    <div class="image">
+                        <img src="HP2.jpg" style="height: 150px; width: 185px;" alt="HPP">
+                        <div class="overlay">
+                            <h4>HP Color LaserJet Pro M283fdw Wireless All-in-One Laser Printer</h4>
+                            <p> Brand: HP
+                                Connectivity Technology: Wi-Fi
+                                Printing Technology: Laser
+                                Special Feature: Auto-Duplex, Network-Ready
+                                Printer Output: Color
+                                Maximum Print Speed: 22 ppm
+                                Max Printspeed Monochrome: 22 ppm
+                                Item Weight: 47.4 Pound
+                            </p>
+                        </div>
+                    <div class="detail">
+                        <h3> HP Color LaserJet Pro M283fdw </h3>
+                        <div class="price">Rs, 60,000</div>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="icon">
+                    <a href="products.html" class="add">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+                <div class="box" onclick="window.location.href= '#'">
+                    <div class="image">
+                        <img src="canon.jpg" style="height: 150px; width: 185px;" alt="canon">
+                        <div class="overlay">
+                            <h4> Canon PIXMA TR8620a- All-in-One Printer</h4>
+                            <p> Brand: Canon
+                                <br>Connectivity Technology: Wi-Fi, USB
+                                <br>Printing Technology: Inkjet
+                                <br>Special Feature: Network-Ready, Touch Screen
+                                <br>Color: Black
+                                <br>Model Name: CNTR8620A
+                                <br>Max Printspeed Monochrome: 15
+                                <br>Item Weight: 17.4 Pounds</p>
+                            </div>
+                    <div class="detail">
+                        <h3> Canon PIXMA TS6420a </h3>
+                        <div class="price">Rs. 50,500</div>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="icon">
+                    <a href="products.html" class="add">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+                <div class="box" onclick="window.location.href= '#'">
+                    <div class="image">
+                        <img src="EPSONn.jpg" style="height: 150px; width: 185px;" alt="EPSON">
+                        <div class="overlay">
+                            <h4> Epson® Workforce® Pro WF-3820 Wireless All-in-One Printer </h4>
+                            <p> Brand: Epson
+                                <br>Connectivity Technology	: Wireless
+                                <br>Printing Technology: Inkjet
+                                <br>Color: Black
+                                <br>Model Name: Workfore Pro
+                                <br>Printer Output: Monochrome
+                                <br>Max Printspeed Monochrome: 21 ppm
+                                <br>Item Weight: 19.4 Pounds
+                            </p>
+                    </div>
+                    <div class="detail">
+                        <h3> Epson Workforce Pro WF-3820 </h3>
+                        <div class="price">Rs. 95,500</div>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="icon">
+                    <a href="products.html" class="add">Add to Cart</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+              <!--about section starts -->
+              <section class="about" id="about">
+                <h1 class="heading"> Our Story</h1>
+                <div class="contents">
+                <p class="par"> At PrintCraft, our story is one of innovation in the realm of online printing. <br> Born from the desire to revolutionize the way people engage with <br>print services, our journey began with a vision to merge cutting-edge <br>technology with effortless accessibility.
+                    Our founding team, <br> comprising tech enthusiasts and printing  industry experts, recognized the <br> challenges faced by customers seeking reliable, high-quality printing <br>solutions without the limitations of traditional brick-and-mortar <br>establishments. <br><br> 
+                    Join us on this digital print revolution. Together, let's redefine <br> what's possible in the world of online printing.
+                </p>
+                <a href="AboutUs.html" class="learn">Learn More</a>
+                <div class="color-box"> </div>
+            </div>
+        </div>
+     </section>
+
+</html>

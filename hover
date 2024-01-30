@@ -1,0 +1,10 @@
+a.active,a:hover{
+background-color: gray;
+transition: .5s;
+cursor: pointer
+}
+.login-btn:hover {
+  background-color: gray; /* Button background color on hover */
+  transition: .5s;
+  cursor: pointer;
+}
